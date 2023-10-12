@@ -1,0 +1,63 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-style: 22px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logout {
+  padding: 5px;
+  border: none;
+  background-color: rgb(80, 80, 113);
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* ========= Media Query(Small Device, Phone) ==============*/
+@media screen and (max-width: 700px) {
+  .container {
+    justify-content: center;
+    align-items: space-around;
+    gap: 20px;
+    border-bottom: 2px solid var(--color-primary);
+  }
+
+  .links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logout {
+    padding: 5px;
+    border: none;
+    background-color: rgb(80, 80, 113);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  .image {
+    display: none;
+  }
+}

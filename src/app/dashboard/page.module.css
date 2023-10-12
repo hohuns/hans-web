@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  gap: 6.25rem;
+}
+
+.posts {
+  flex: 1;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3.125rem 0rem;
+  padding: 0.625rem;
+  gap: 0.625rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.img__Container {
+  width: 12.5rem;
+  height: 6.25rem;
+  position: relative;
+}
+
+.img {
+  object-fit: cover;
+  border-radius: 0.625rem;
+}
+
+.delete {
+  cursor: pointer;
+  color: red;
+}
+
+.new {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.input,
+.textArea {
+  padding: 0.625rem;
+  background-color: transparent;
+  border: 2px solid #bbb;
+  border-radius: 0.188rem;
+  color: #bbb;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.button {
+  padding: 1.25rem;
+  cursor: pointer;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 0.313rem;
+  color: #eee;
+  font-weight: bold;
+}
+
+/* ========= Media Query(Small Device, Phone) ==============*/
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    gap: 1.875rem;
+  }
+
+  .delete {
+    display: flex;
+    font-size: 1.563rem;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem 0rem;
+  }
+
+  .img__Container {
+    width: 12.5rem;
+    height: 6.25rem;
+  }
+
+  .post__Title {
+    text-align: center;
+  }
+}

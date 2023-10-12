@@ -1,0 +1,101 @@
+.container {
+}
+
+.title {
+  font-size: 3.75em;
+  margin-bottom: 3.75rem;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 6.25rem;
+}
+
+.img__Container {
+  flex: 1;
+  height: 31.25rem;
+  position: relative;
+}
+
+.image {
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px) scale(1.03);
+  }
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.input,
+.textArea {
+  padding: 1.25rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--color-font);
+  border: 3px solid rgb(80, 80, 113);
+  border-radius: 0.625rem;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.button {
+  padding: 1.125rem;
+  cursor: pointer;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 0.313rem;
+  width: max-content;
+  color: white;
+}
+
+/* ========= Media Query(Small Device, Phone) ==============*/
+@media screen and (max-width: 700px) {
+  .title {
+    margin-top: 0.625rem;
+    font-size: 1.875rem;
+    margin-bottom: 0.625rem;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img__Container {
+    height: 12.5rem;
+    width: 12.5rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    height: 90vh;
+  }
+
+  .input,
+  .textArea {
+    padding: 0.625rem;
+    width: 90vw;
+  }
+}
