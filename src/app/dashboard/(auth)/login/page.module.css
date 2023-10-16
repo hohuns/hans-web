@@ -6,13 +6,13 @@
 }
 
 .title {
-  color: black;
+  color: inherit;
 }
 
 .subtitle {
   font-size: 1.25em;
   margin-bottom: 1.875rem;
-  color: black;
+  color: inherit;
 }
 
 .form {

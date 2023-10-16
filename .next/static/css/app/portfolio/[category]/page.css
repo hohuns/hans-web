@@ -1,0 +1,105 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/portfolio/[category]/page.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.page_container__rbqPi {
+}
+
+.page_cat__Title__dMB_w {
+  color: inherit;
+}
+
+.page_item__XrdDN {
+  display: flex;
+  gap: 6.25rem;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+  border-radius: 0.625rem;
+  padding: 1.25rem;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15);
+}
+
+.page_item__XrdDN:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.page_img__Container__WmmRb {
+  flex: 1 1;
+  height: 25rem;
+  width: 31.25rem;
+  position: relative;
+}
+
+.page_title__Container__7OmAf {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page_image__c2UoZ {
+  object-fit: contain;
+}
+
+.page_content__shD3S {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.page_title__EpnXR {
+  font-size: 2.188rem;
+}
+
+.page_desc__dCnr4 {
+  font-size: 1.25rem;
+}
+
+/* ========= Media Query(Small Device, Phone) ==============*/
+@media screen and (max-width: 700px) {
+  .page_item__XrdDN {
+    flex-direction: column-reverse;
+    padding: 0.625rem;
+    gap: 0.625rem;
+    height: 25rem;
+    overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page_item__XrdDN:nth-child(2n) {
+    flex-direction: column-reverse;
+  }
+
+  .page_img__Container__WmmRb {
+    flex: 2 1;
+    height: 18.75rem;
+    width: 18.75rem;
+  }
+
+  .page_content__shD3S {
+    gap: 0.625rem;
+  }
+
+  .page_title__EpnXR {
+    font-size: 1.563em;
+  }
+
+  .page_desc__dCnr4 {
+    font-size: 0.938em;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Button/button.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.button_container__uA_oD {
+  padding: 20px;
+  cursor: pointer;
+  background-color: rgb(80, 80, 113);
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: white;
+}
+
