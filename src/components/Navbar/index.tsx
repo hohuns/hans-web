@@ -19,11 +19,11 @@ const Navbar = () => {
       title: "Portfolio",
       url: "/portfolio",
     },
-    {
-      id: 3,
-      title: "Blog",
-      url: "/blog",
-    },
+    // session.status === "authenticated" ? {
+    //   id: 3,
+    //   title: "Blog",
+    //   url: "/blog",
+    // } : null,
     {
       id: 4,
       title: "About",
