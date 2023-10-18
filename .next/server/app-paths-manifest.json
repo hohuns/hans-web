@@ -1,5 +1,7 @@
 {
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/portfolio/[category]/page": "app/portfolio/[category]/page.js"
 }

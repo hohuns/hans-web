@@ -36,6 +36,11 @@
   object-fit: contain;
 }
 
+.image:hover {
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+}
+
 .content {
   flex: 1;
   display: flex;
@@ -50,6 +55,15 @@
 
 .desc {
   font-size: 1.25rem;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px) scale(1.06);
+  }
 }
 
 /* ========= Media Query(Small Device, Phone) ==============*/
