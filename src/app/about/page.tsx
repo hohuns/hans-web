@@ -61,16 +61,7 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
-                    <h4>JavaScript</h4>
-                    <small>Intermediate</small>
-                  </div>
-                </article>
-                <article className={styles.experience__details}>
-                  <BsPatchCheckFill
-                    className={styles.experience__details_icon}
-                  />
-                  <div>
-                    <h4>TypeScript</h4>
+                    <h4>CSS</h4>
                     <small>Intermediate</small>
                   </div>
                 </article>
@@ -88,7 +79,16 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
-                    <h4>CSS</h4>
+                    <h4>JavaScript</h4>
+                    <small>Intermediate</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
+                    <h4>TypeScript</h4>
                     <small>Intermediate</small>
                   </div>
                 </article>
@@ -174,6 +174,15 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
+                    <h4>Express.js</h4>
+                    <small>Experienced</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
                     <h4>MongoDB</h4>
                     <small>Experienced</small>
                   </div>
@@ -183,7 +192,43 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
+                    <h4>Mongoose</h4>
+                    <small>Experienced</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
                     <h4>MySQL</h4>
+                    <small>Experienced</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
+                    <h4>Strapi</h4>
+                    <small>Experienced</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
+                    <h4>Firebase</h4>
+                    <small>Experienced</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
+                    <h4>AWS</h4>
                     <small>Experienced</small>
                   </div>
                 </article>

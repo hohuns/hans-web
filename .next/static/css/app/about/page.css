@@ -1,0 +1,172 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/about/pages.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.pages_container__8KSrD {
+  display: flex;
+  flex-direction: column;
+}
+
+.pages_img__Container__tnWcX {
+  width: 100%;
+  height: 25rem;
+  position: relative;
+}
+
+.pages_img__mcr8Y {
+  object-fit: cover;
+  filter: grayscale(100%);
+  border-radius: 10px;
+}
+
+.pages_img__Text__vBXZv {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  background-color: var(--color-primary);
+  border-radius: 0.625rem;
+  padding: 0.313rem;
+  color: white;
+}
+
+.pages_text__Container__54E6x {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+
+.pages_item__IoMlh {
+  flex: 1 1;
+  margin-top: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.pages_desc__HcopJ {
+  font-size: 1.563rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.pages_experience__container__GuNRg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+
+.pages_experience__container__GuNRg > div {
+  background: var(--color-primary);
+  padding: 1rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: all 400ms ease;
+  color: white;
+}
+
+.pages_experience__container__GuNRg > div:hover {
+  background: var(--color-primary-dark);
+  border-color: var(--color-primary);
+  cursor: default;
+}
+
+.pages_experience__container__GuNRg > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pages_experience__content__xISIC {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.pages_experience__details__d4_xo {
+  display: flex;
+  gap: 1rem;
+}
+
+.pages_experience__details-icon__A9w_1 {
+  margin-top: 0.375rem;
+  color: var(--color-primary);
+}
+
+.pages_text__light__cRHAr {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.pages_experience__details_icon__CsLxq {
+  color: silver;
+}
+
+.pages_experience__frontend__e4Bp1:hover .pages_experience__details_icon__CsLxq {
+  color: slateblue;
+}
+
+.pages_experience__backend__6fp_F:hover .pages_experience__details_icon__CsLxq {
+  color: slateblue;
+}
+
+/* ========= Media Query(Medium Device, Tablet) ==============*/
+@media screen and (max-width: 1024px) {
+  .pages_experience__container__GuNRg {
+    grid-template-columns: 1fr;
+  }
+
+  .pages_experience__container__GuNRg > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .pages_experience__content__xISIC {
+    padding: 1rem;
+  }
+}
+
+/* ========= Media Query(Small Device, Phone) ==============*/
+@media screen and (max-width: 600px) {
+  .pages_img__Container__tnWcX {
+    margin-top: 0.625rem;
+    width: 100%;
+    height: 12.5rem;
+  }
+
+  .pages_img__Title__ewAr4 {
+    font-size: 0.75em;
+  }
+
+  .pages_img__mcr8Y {
+    object-fit: cover;
+  }
+
+  .pages_img__Text__vBXZv {
+    position: absolute;
+    top: 1.25rem;
+    left: 0.5rem;
+    background-color: var(--color-primary);
+    border-radius: 0.625rem;
+    padding: 0.313rem;
+    color: white;
+  }
+
+  .pages_experience__container__GuNRg {
+    gap: 1rem;
+  }
+
+  .pages_experience__container__GuNRg > div {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+  }
+
+  .pages_desc__HcopJ {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
