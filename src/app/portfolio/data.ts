@@ -13,7 +13,7 @@ export const items = {
       title: "MegaWhale",
       desc: "This is web application of Warehouse Management System for DFS Group.",
       image: "/portfolio4.png",
-      link: "https://www.notion.so/hohuns17/MegaWhale-Web-Warehouse-Management-System-90d6bfe28eaf4b07ab10b9197de1cedd?pvs=4",
+      link: "",
       type: "React",
     },
     {
@@ -21,7 +21,7 @@ export const items = {
       title: "echoMe",
       desc: "This is web application of Warehouse Management System for DFS Group.",
       image: "/portfolio3.png",
-      link: "https://hohuns17.notion.site/EchoMe-Warehouse-Management-System-56a3e78f553d46998076663498ee9794",
+      link: "",
       type: "React",
     },
     {
@@ -68,10 +68,10 @@ export const items = {
   applications: [
     {
       id: 0,
-      title: "Interlogger Mobile",
+      title: "EchoMe Mobile",
       desc: "This is androind mobile application of Warehouse Management System for DFS.",
       image: "/portfolio3.png",
-      link: "https://www.notion.so/hohuns17/echoMe-Mobile-Warehouse-Management-System-c8ff7af429f64a7cb500c1d8ac93f53f?pvs=4",
+      link: "",
       type: "React",
     },
     {

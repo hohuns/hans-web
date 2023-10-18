@@ -63,11 +63,13 @@ const Category = ({ params }: { params: { category: string } }) => {
                 )}
               </div>
               <p className={styles.desc}>{item.desc}</p>
-              <Button
-                text="See More Details"
-                url={item?.link}
-                isTarget={true}
-              />
+              {item?.link && (
+                <Button
+                  text="See More Details"
+                  url={item?.link}
+                  isTarget={true}
+                />
+              )}
             </div>
             <div className={styles.img__Container}>
               <Image
