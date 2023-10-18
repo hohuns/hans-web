@@ -79,6 +79,15 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
+                    <h4>Tailwind CSS</h4>
+                    <small>Intermediate</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
                     <h4>JavaScript</h4>
                     <small>Intermediate</small>
                   </div>
@@ -124,6 +133,24 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
+                    <h4>Redux</h4>
+                    <small>Intermediate</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
+                    <h4>React-Query</h4>
+                    <small>Intermediate</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
                     <h4>MUI 5</h4>
                     <small>Intermediate</small>
                   </div>
@@ -133,7 +160,7 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
-                    <h4>Bootstrap</h4>
+                    <h4>Native Base</h4>
                     <small>Intermediate</small>
                   </div>
                 </article>
@@ -142,7 +169,7 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
-                    <h4>Tailwind CSS</h4>
+                    <h4>Bootstrap</h4>
                     <small>Intermediate</small>
                   </div>
                 </article>
