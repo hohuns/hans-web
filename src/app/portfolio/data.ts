@@ -19,7 +19,7 @@ export const items = {
     {
       id: 2,
       title: "echoMe",
-      desc: "This is web application of Warehouse Management System for DFS Group.",
+      desc: "This is web application of Asset Management System for DFS Group.",
       image: "/portfolio3.png",
       link: "",
       type: "React",
