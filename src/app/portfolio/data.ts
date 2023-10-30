@@ -26,6 +26,14 @@ export const items = {
     },
     {
       id: 3,
+      title: "Hans Blog",
+      desc: "This project implements a Personal Blog Application using Next.js.",
+      image: "/portfolio12.png",
+      link: "https://www.notion.so/hohuns17/HANS-BLOG-fab40b15b7214224baa5b5e5b675c830?pvs=4",
+      type: "Next",
+    },
+    {
+      id: 4,
       title: "InterLogger v3",
       desc: "The purpose of this toy project is to enhance the features of InternetLogger. You can check details of first version of InternetLogger in my project list.",
       image: "/portfolio1.png",
@@ -33,7 +41,7 @@ export const items = {
       type: "React",
     },
     {
-      id: 4,
+      id: 5,
       title: "Travel Logger",
       desc: "This project is to make travel logger with by using tour schedule function and mappin to aid visualization as well as details.",
       image: "/portfolio8.png",
@@ -41,7 +49,7 @@ export const items = {
       type: "React",
     },
     {
-      id: 5,
+      id: 6,
       title: "Hans Tour",
       desc: "This project is implemented with pure Sass in order to practice various CSS animations, applications and finally for usage of Sass.",
       image: "/portfolio2.png",
@@ -49,7 +57,7 @@ export const items = {
       type: "React",
     },
     {
-      id: 6,
+      id: 7,
       title: "Hans Template v3",
       desc: "Personal template based on MUI5, React Router Dom6, Redux Tool kit, React Data Grid and integrated with Keycloak.",
       image: "/portfolio9.png",
@@ -57,7 +65,7 @@ export const items = {
       type: "React",
     },
     {
-      id: 7,
+      id: 8,
       title: "See More Projects..",
       desc: "There are bunch of projects to explore to..",
       image: "/portfolio7.png",

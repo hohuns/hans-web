@@ -23,17 +23,29 @@
       "static/css/app/portfolio/layout.css",
       "static/chunks/app/portfolio/layout.js"
     ],
-    "/portfolio/[category]/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/portfolio/[category]/loading.css",
-      "static/chunks/app/portfolio/[category]/loading.js"
-    ],
     "/portfolio/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/portfolio/loading.css",
       "static/chunks/app/portfolio/loading.js"
+    ],
+    "/about/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/about/loading.css",
+      "static/chunks/app/about/loading.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/about/page.css",
+      "static/chunks/app/about/page.js"
+    ],
+    "/portfolio/[category]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/portfolio/[category]/loading.css",
+      "static/chunks/app/portfolio/[category]/loading.js"
     ],
     "/portfolio/[category]/page": [
       "static/chunks/webpack.js",
