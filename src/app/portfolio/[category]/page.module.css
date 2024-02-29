@@ -59,10 +59,10 @@
 
 @keyframes move {
   from {
-    transform: translateY(-15px);
+    transform: translateX(20px);
   }
   to {
-    transform: translateY(0px) scale(1.06);
+    transform: translateY(0px) scale(1.6);
   }
 }
 
@@ -98,5 +98,10 @@
 
   .desc {
     font-size: 0.938em;
+  }
+
+  .image:hover {
+    object-fit: contain;
+    animation: none;
   }
 }

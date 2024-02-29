@@ -29,16 +29,17 @@ const About = () => {
         <div className={styles.item}>
           <h1 className={styles.title}>Who Am I?</h1>
           <p className={styles.desc}>
-            An aspiring Junior MERN Stack developer with 1 year + @ of
-            experience developing production-ready application with
-            Next.js,React.js/Typescript, MUI5, tailwind and more in frontend
+            An aspiring Junior MERN Stack developer with 2 years of experience
+            developing production-ready application with
+            Next/React.js/Typescript, MUI5, tailwind, Sass and more in frontend
             side that always targeting for writing clean, tested, and
             maintainable code.
             <br />
             <br />
-            Furthermore, Mongodb, firebase, node.js and express.js for backend
-            side as well for well round coding experience. And also experienced
-            in collaborating in an Agile environment leveraging Jira.
+            Furthermore, Mongodb, firebase, node.js, prisma and express.js for
+            backend side as well for well round coding experience. And also
+            experienced in collaborating in an Agile environment leveraging
+            Jira.
           </p>
         </div>
         <div className={styles.item}>
@@ -255,7 +256,7 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
-                    <h4>AWS</h4>
+                    <h4>Prisma</h4>
                     <small>Experienced</small>
                   </div>
                 </article>
