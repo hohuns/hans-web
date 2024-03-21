@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <div>©2024 Hans Sung JAE Joo. All rights reserved.</div>
+      <div>©2024 Hans JOO. All rights reserved.</div>
       <div className={styles.social}>
         <Link href="https://m.me/hans.joo.73" target="_blank">
           <Image
