@@ -53,6 +53,13 @@
   font-weight: bold;
 }
 
+.input:disabled,
+.textArea:disabled {
+  background-color: rgba(105, 105, 105, 0.397);
+  color: white;
+  opacity: 1;
+}
+
 .button {
   padding: 1.125rem;
   cursor: pointer;
@@ -61,6 +68,12 @@
   border-radius: 0.313rem;
   width: max-content;
   color: white;
+}
+
+.button:disabled {
+  background-color: dimgrey;
+  color: linen;
+  opacity: 1;
 }
 
 /* ========= Media Query(Small Device, Phone) ==============*/

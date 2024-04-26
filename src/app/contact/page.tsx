@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import Button from "@/components/Button/Button";
@@ -8,9 +8,10 @@ import { enqueueSnackbar } from "notistack";
 
 const Contact = () => {
   const form = useRef<HTMLFormElement>(null);
-
+  const [isSending, setIsSending] = useState<boolean>(false);
   const sendEmail = (e: any) => {
     e.preventDefault();
+    setIsSending(true);
 
     emailjs
       .sendForm(
@@ -21,11 +22,13 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          setIsSending(false);
           enqueueSnackbar("Message is successfully sent.", {
             variant: "success",
           });
         },
         (error) => {
+          setIsSending(false);
           console.log(error.text);
           enqueueSnackbar("Fail to send message. Please try again.", {
             variant: "error",
@@ -53,22 +56,25 @@ const Contact = () => {
             type="text"
             placeholder="Name"
             name="name"
+            disabled={isSending}
             className={styles?.input}
           />
           <input
             type="text"
             placeholder="Email"
             name="email"
+            disabled={isSending}
             className={styles?.input}
           />
           <textarea
             cols={30}
             rows={10}
+            disabled={isSending}
             name="message"
             placeholder="Message"
             className={styles?.textArea}
           ></textarea>
-          <button type="submit" className={styles.button}>
+          <button type="submit" disabled={isSending} className={styles.button}>
             Send
           </button>
         </form>
