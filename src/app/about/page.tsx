@@ -29,14 +29,14 @@ const About = () => {
         <div className={styles.item}>
           <h1 className={styles.title}>Who Am I?</h1>
           <p className={styles.desc}>
-            An aspiring Junior MERN Stack developer with 2 years of experience
-            developing production-ready application with
-            Next/React.js/Typescript, MUI5, tailwind, Sass and more in frontend
+            An aspiring Junior MERN Stack developer with 2 years+ of experience
+            developing production-ready application with Next/React with
+            Typescript, MUI5, tailwind, Sass, React-Native and more in frontend
             side that always targeting for writing clean, tested, and
             maintainable code.
             <br />
             <br />
-            Furthermore, Mongodb, firebase, node.js, prisma and express.js for
+            Furthermore, mongodb, firebase, node.js, prisma and express.js for
             backend side as well for well round coding experience. And also
             experienced in collaborating in an Agile environment leveraging
             Jira.
@@ -170,7 +170,16 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
-                    <h4>Bootstrap</h4>
+                    <h4>Microsoft Power-App</h4>
+                    <small>Intermediate</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
+                    <h4>Microsoft Power-Automate</h4>
                     <small>Intermediate</small>
                   </div>
                 </article>
@@ -238,7 +247,16 @@ const About = () => {
                     className={styles.experience__details_icon}
                   />
                   <div>
-                    <h4>Strapi</h4>
+                    <h4>PHP</h4>
+                    <small>Experienced</small>
+                  </div>
+                </article>
+                <article className={styles.experience__details}>
+                  <BsPatchCheckFill
+                    className={styles.experience__details_icon}
+                  />
+                  <div>
+                    <h4>LARAVEL</h4>
                     <small>Experienced</small>
                   </div>
                 </article>
